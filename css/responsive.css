@@ -1,0 +1,128 @@
+/* 
+  ##Device = Most of the Galaxy fold Mobiles (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+
+    /* CSS */
+    /* header styles */
+    .header-hero {
+      display: flex;
+      padding: 5px;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+  .nav ul li {
+    display: inline-block;
+    padding: 5px;
+    color: #3A3A3A;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+    /* CSS */
+}
+
+
+/* 
+  ############################Device = Most of the Smartphones Mobiles (Portrait)########################
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    /* header styles */
+    .header-hero {
+      display: flex;
+      padding: 7px;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+
+    /* CSS */
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+    /* header styles */
+    .header-hero {
+      display: flex;
+      padding: 9px;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+  .nav ul li {
+    display: inline-block;
+    padding: 10px;
+    color: #3A3A3A;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.logo h1 {
+      color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    padding-top: 21px;
+}
+    /* CSS */
+ }
+
+
+/* 
+  ##Device = Tablets, Notebook, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+    /* header styles */
+    .header-hero {
+      display: flex;
+      padding: 9px;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+  .header-hero {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.logo h1 {
+  color: #3A3A3A;
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+  padding-top: 21px;
+}
+
+    /* CSS */
+
+
+}
